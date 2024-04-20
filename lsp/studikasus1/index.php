@@ -11,13 +11,13 @@ $whatsapp = new WhatsApp();
 $instagram = new Instagram();
 
 // Use WhatsApp
-echo "WhatsApp Actions:\n";
+echo  " <br> \nWhatsApp Actions: \n";
 $whatsapp->chat();
 $whatsapp->sendPhotosAndVideos();
 $whatsapp->callGroupVideo();
 
 // Use Instagram
-echo "\nInstagram Actions:\n";
+echo  " <br> \nInstagram Actions: \n";
 $instagram->chat();
 $instagram->sendPhotosAndVideos();
 $instagram->publishPost();

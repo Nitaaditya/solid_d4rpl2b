@@ -6,6 +6,6 @@ class MahasiswaView
 {
     public function showMahasiswa(Mahasiswa $mahasiswa)
     {
-        echo "NIM: " . $mahasiswa->getNim() . ", Nama: " . $mahasiswa->getNama() . "\n";
+        echo "NIM: " . $mahasiswa->getNim() . "<br> Nama: " . $mahasiswa->getNama() . "\n";
     }
 }
